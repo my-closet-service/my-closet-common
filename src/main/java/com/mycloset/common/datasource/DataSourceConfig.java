@@ -11,5 +11,5 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableConfigurationProperties
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = "com")
-public class TestDataSourceConfig {
+public class DataSourceConfig {
 }
